@@ -1,0 +1,872 @@
+{
+  "meteo": {
+    "bulletin": {
+      "sujet": "BULLETIN METEOROLOGIQUE DE LA MI-JOURNEE",
+      "date": "2010-02-18 17:31:00",
+      "introduction": "Pr�visions pour LA REUNION, le 18/02/10 à 12 h locales, valables pour cet apr�s-midi et la nuit prochaine",
+      "situation": "La masse est encore humide et instable. Vigilance fortes pluies jusqu'� cet apr�s-midi 17h.",
+      "previsions": "<p>Cet apr�s-midi, les �claircies se maintiennent sur le littoral de St Denis � St Pierre en passant par St Benoit. Toutefois, des passages nuageux parfois accompagn�s d'averses touchent ponctuellement l'Est de l'�le en cours d'apr�s-midi. Dans l'int�rieur, le ciel est bien gris. Ces nuages sont associ�s � des averses, en particulier dans les hauts de l'Ouest et du Sud-Ouest o� elles sont localement fortes et parfois orageuses. Ces averses se d�calent vers la bordure coti�re, de la route du littoral jusqu'� St Leu. Le vent d'Est � Sud-Est est mod�r� � assez fort. Il atteint 60 � 70 km/h en pointe sur le Nord-Est, entre Gillot et Saint-Andr� et le Sud-Ouest de l'Etang Sal� � Saint-Joseph. La mer est agit�e � forte dans ces secteurs.</p><p>Cette nuit, des averses se produisent principalement sur les r�gions allant de St Andr� � St Joseph. Ailleurs, le temps est agr�able.</p><p>Pour information La Forte Temp�te Tropicale GELANE 975 hPa, �tait situ�e � 10 heures locales vers 14. 9 Sud / 62. 1 Est, soit � 950 km au Nord-Est de la R�union. Le d�placement est de Sud-Sud-Est � 5 km/h.</p>",
+      "pression": {
+        "-date": "2010-02-18 11:00:00",
+        "-lieu": "Gillot",
+        "#text": "1015. 1"
+      },
+      "ville": [
+        {
+          "-id": "CILAOS",
+          "-temperature_mini": "17",
+          "-temperature_maxi": "23",
+          "-temps": "15",
+          "-vent_direction": "ESE",
+          "-vent_force": "4",
+          "-vent_rafales": "34",
+          "-humidite": "81"
+        },
+        {
+          "-id": "LA PLAINE DES CAFRES",
+          "-temperature_mini": "18",
+          "-temperature_maxi": "18",
+          "-temps": "15",
+          "-vent_direction": "ESE",
+          "-vent_force": "5",
+          "-vent_rafales": "34",
+          "-humidite": "82"
+        },
+        {
+          "-id": "LA PLAINE DES PALMISTES",
+          "-temperature_mini": "18",
+          "-temperature_maxi": "20",
+          "-temps": "15",
+          "-vent_direction": "ESE",
+          "-vent_force": "23",
+          "-vent_rafales": "36",
+          "-humidite": "76"
+        },
+        {
+          "-id": "LE PORT",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "33",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "4",
+          "-vent_rafales": "33",
+          "-humidite": "82"
+        },
+        {
+          "-id": "LE TAMPON",
+          "-temperature_mini": "22",
+          "-temperature_maxi": "29",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "20",
+          "-vent_rafales": "31",
+          "-humidite": "76"
+        },
+        {
+          "-id": "SAINT-ANDRE",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "23",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "23",
+          "-vent_rafales": "37",
+          "-humidite": "83"
+        },
+        {
+          "-id": "SAINT-BENOIT",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "29",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "23",
+          "-vent_rafales": "38",
+          "-humidite": "79"
+        },
+        {
+          "-id": "SAINT-DENIS",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "29",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "15",
+          "-vent_rafales": "49",
+          "-humidite": "80"
+        },
+        {
+          "-id": "SAINT-LEU",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "29",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "21",
+          "-vent_rafales": "46",
+          "-humidite": "84"
+        },
+        {
+          "-id": "SAINT-LOUIS",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "29",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "0",
+          "-vent_rafales": "38",
+          "-humidite": "77"
+        },
+        {
+          "-id": "SAINT-PAUL",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "19",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "11",
+          "-vent_rafales": "23",
+          "-humidite": "84"
+        },
+        {
+          "-id": "SAINT-PHILIPPE",
+          "-temperature_mini": "22",
+          "-temperature_maxi": "27",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "18",
+          "-vent_rafales": "38",
+          "-humidite": "81"
+        },
+        {
+          "-id": "SAINT-PIERRE",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "30",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "37",
+          "-vent_rafales": "54",
+          "-humidite": "82"
+        },
+        {
+          "-id": "SAINTE-MARIE",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "28",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "39",
+          "-vent_rafales": "71",
+          "-humidite": "79"
+        },
+        {
+          "-id": "SAINTE-ROSE",
+          "-temperature_mini": "24",
+          "-temperature_maxi": "27",
+          "-temps": "03",
+          "-vent_direction": "ESE",
+          "-vent_force": "0",
+          "-vent_rafales": "22",
+          "-humidite": "81"
+        }
+      ]
+    },
+    "previsions": {
+      "prevision": [ 
+        {
+          "-date": "2010-02-19",
+          "ville": [
+            {
+              "-id": "CILAOS",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "23",
+              "-temps": "15",
+              "-vent_direction": "SE",
+              "-vent_force": "31",
+              "-humidite": "80"
+            },
+            {
+              "-id": "LA PLAINE DES CAFRES",
+              "-temperature_mini": "20",
+              "-temperature_maxi": "24",
+              "-temps": "15",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "78"
+            },
+            {
+              "-id": "LA PLAINE DES PALMISTES",
+              "-temperature_mini": "20",
+              "-temperature_maxi": "24",
+              "-temps": "15",
+              "-vent_direction": "SE",
+              "-vent_force": "17",
+              "-humidite": "77"
+            },
+            {
+              "-id": "LE PORT",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "03",
+              "-vent_direction": "SE",
+              "-vent_force": "32",
+              "-humidite": "82"
+            },
+            {
+              "-id": "LE TAMPON",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "27",
+              "-temps": "03",
+              "-vent_direction": "ESE",
+              "-vent_force": "35",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINT-ANDRE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "SE",
+              "-vent_force": "24",
+              "-humidite": "82"
+            },
+            {
+              "-id": "SAINT-BENOIT",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "SE",
+              "-vent_force": "16",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-DENIS",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "03",
+              "-vent_direction": "SE",
+              "-vent_force": "18",
+              "-humidite": "81"
+            },
+            {
+              "-id": "SAINT-LEU",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "ESE",
+              "-vent_force": "16",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINT-LOUIS",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "ESE",
+              "-vent_force": "26",
+              "-humidite": "79"
+            },
+            {
+              "-id": "SAINT-PAUL",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "ESE",
+              "-vent_force": "34",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-PHILIPPE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "27",
+              "-temps": "03",
+              "-vent_direction": "ESE",
+              "-vent_force": "23",
+              "-humidite": "78"
+            },
+            {
+              "-id": "SAINT-PIERRE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "ESE",
+              "-vent_force": "33",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINTE-MARIE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "03",
+              "-vent_direction": "SE",
+              "-vent_force": "32",
+              "-humidite": "79"
+            },
+            {
+              "-id": "SAINTE-ROSE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "03",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "79"
+            }
+          ]
+        },
+        {
+          "-date": "2010-02-20",
+          "ville": [
+            {
+              "-id": "CILAOS",
+              "-temperature_mini": "18",
+              "-temperature_maxi": "23",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "12",
+              "-humidite": "75"
+            },
+            {
+              "-id": "LA PLAINE DES CAFRES",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "25",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "21",
+              "-humidite": "78"
+            },
+            {
+              "-id": "LA PLAINE DES PALMISTES",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "25",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "26",
+              "-humidite": "80"
+            },
+            {
+              "-id": "LE PORT",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "31",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "20",
+              "-humidite": "79"
+            },
+            {
+              "-id": "LE TAMPON",
+              "-temperature_mini": "21",
+              "-temperature_maxi": "28",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "29",
+              "-humidite": "79"
+            },
+            {
+              "-id": "SAINT-ANDRE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "17",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINT-BENOIT",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "16",
+              "-humidite": "76"
+            },
+            {
+              "-id": "SAINT-DENIS",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "31",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "30",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINT-LEU",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "30",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "16",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINT-LOUIS",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "30",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "26",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-PAUL",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "30",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "26",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-PHILIPPE",
+              "-temperature_mini": "21",
+              "-temperature_maxi": "28",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "18",
+              "-humidite": "81"
+            },
+            {
+              "-id": "SAINT-PIERRE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "27",
+              "-humidite": "76"
+            },
+            {
+              "-id": "SAINTE-MARIE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "31",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "75"
+            },
+            {
+              "-id": "SAINTE-ROSE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "79"
+            }
+          ]
+        },
+        {
+          "-date": "2010-02-21",
+          "ville": [
+            {
+              "-id": "CILAOS",
+              "-temperature_mini": "18",
+              "-temperature_maxi": "22",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "26",
+              "-humidite": "75"
+            },
+            {
+              "-id": "LA PLAINE DES CAFRES",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "24",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "80"
+            },
+            {
+              "-id": "LA PLAINE DES PALMISTES",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "24",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "19",
+              "-humidite": "83"
+            },
+            {
+              "-id": "LE PORT",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "23",
+              "-humidite": "84"
+            },
+            {
+              "-id": "LE TAMPON",
+              "-temperature_mini": "21",
+              "-temperature_maxi": "27",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "78"
+            },
+            {
+              "-id": "SAINT-ANDRE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "28",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "31",
+              "-humidite": "75"
+            },
+            {
+              "-id": "SAINT-BENOIT",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "28",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "21",
+              "-humidite": "80"
+            },
+            {
+              "-id": "SAINT-DENIS",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "34",
+              "-humidite": "82"
+            },
+            {
+              "-id": "SAINT-LEU",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "18",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINT-LOUIS",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "34",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINT-PAUL",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "33",
+              "-humidite": "82"
+            },
+            {
+              "-id": "SAINT-PHILIPPE",
+              "-temperature_mini": "21",
+              "-temperature_maxi": "27",
+              "-temps": "17",
+              "-vent_direction": "SE",
+              "-vent_force": "27",
+              "-humidite": "80"
+            },
+            {
+              "-id": "SAINT-PIERRE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "32",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINTE-MARIE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "19",
+              "-humidite": "75"
+            },
+            {
+              "-id": "SAINTE-ROSE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "28",
+              "-temps": "18",
+              "-vent_direction": "SE",
+              "-vent_force": "28",
+              "-humidite": "77"
+            }
+          ]
+        },
+        {
+          "-date": "2010-02-22",
+          "ville": [
+            {
+              "-id": "CILAOS",
+              "-temperature_mini": "18",
+              "-temperature_maxi": "23",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "15",
+              "-humidite": "81"
+            },
+            {
+              "-id": "LA PLAINE DES CAFRES",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "25",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "16",
+              "-humidite": "84"
+            },
+            {
+              "-id": "LA PLAINE DES PALMISTES",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "25",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "28",
+              "-humidite": "80"
+            },
+            {
+              "-id": "LE PORT",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "31",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "20",
+              "-humidite": "78"
+            },
+            {
+              "-id": "LE TAMPON",
+              "-temperature_mini": "21",
+              "-temperature_maxi": "28",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "28",
+              "-humidite": "75"
+            },
+            {
+              "-id": "SAINT-ANDRE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "12",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-BENOIT",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "19",
+              "-humidite": "78"
+            },
+            {
+              "-id": "SAINT-DENIS",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "31",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "12",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINT-LEU",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "30",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "15",
+              "-humidite": "76"
+            },
+            {
+              "-id": "SAINT-LOUIS",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "30",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "13",
+              "-humidite": "76"
+            },
+            {
+              "-id": "SAINT-PAUL",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "30",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "31",
+              "-humidite": "75"
+            },
+            {
+              "-id": "SAINT-PHILIPPE",
+              "-temperature_mini": "21",
+              "-temperature_maxi": "28",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "26",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-PIERRE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "28",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "30",
+              "-humidite": "78"
+            },
+            {
+              "-id": "SAINTE-MARIE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "31",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "19",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINTE-ROSE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "29",
+              "-temps": "02",
+              "-vent_direction": "SE",
+              "-vent_force": "21",
+              "-humidite": "84"
+            }
+          ]
+        },
+        {
+          "-date": "2010-02-23",
+          "ville": [
+            {
+              "-id": "CILAOS",
+              "-temperature_mini": "19",
+              "-temperature_maxi": "23",
+              "-temps": "15",
+              "-vent_direction": "SSE",
+              "-vent_force": "21",
+              "-humidite": "84"
+            },
+            {
+              "-id": "LA PLAINE DES CAFRES",
+              "-temperature_mini": "20",
+              "-temperature_maxi": "24",
+              "-temps": "15",
+              "-vent_direction": "SSE",
+              "-vent_force": "28",
+              "-humidite": "82"
+            },
+            {
+              "-id": "LA PLAINE DES PALMISTES",
+              "-temperature_mini": "20",
+              "-temperature_maxi": "24",
+              "-temps": "15",
+              "-vent_direction": "SSE",
+              "-vent_force": "15",
+              "-humidite": "82"
+            },
+            {
+              "-id": "LE PORT",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "14",
+              "-vent_direction": "SSE",
+              "-vent_force": "11",
+              "-humidite": "81"
+            },
+            {
+              "-id": "LE TAMPON",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "27",
+              "-temps": "15",
+              "-vent_direction": "SE",
+              "-vent_force": "24",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-ANDRE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "12",
+              "-vent_direction": "SSE",
+              "-vent_force": "22",
+              "-humidite": "83"
+            },
+            {
+              "-id": "SAINT-BENOIT",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "12",
+              "-vent_direction": "SSE",
+              "-vent_force": "12",
+              "-humidite": "82"
+            },
+            {
+              "-id": "SAINT-DENIS",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "14",
+              "-vent_direction": "SSE",
+              "-vent_force": "29",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINT-LEU",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "12",
+              "-vent_direction": "SE",
+              "-vent_force": "11",
+              "-humidite": "77"
+            },
+            {
+              "-id": "SAINT-LOUIS",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "12",
+              "-vent_direction": "SE",
+              "-vent_force": "18",
+              "-humidite": "76"
+            },
+            {
+              "-id": "SAINT-PAUL",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "12",
+              "-vent_direction": "SE",
+              "-vent_force": "12",
+              "-humidite": "76"
+            },
+            {
+              "-id": "SAINT-PHILIPPE",
+              "-temperature_mini": "22",
+              "-temperature_maxi": "27",
+              "-temps": "15",
+              "-vent_direction": "SE",
+              "-vent_force": "10",
+              "-humidite": "78"
+            },
+            {
+              "-id": "SAINT-PIERRE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "12",
+              "-vent_direction": "SE",
+              "-vent_force": "25",
+              "-humidite": "82"
+            },
+            {
+              "-id": "SAINTE-MARIE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "30",
+              "-temps": "14",
+              "-vent_direction": "SSE",
+              "-vent_force": "29",
+              "-humidite": "84"
+            },
+            {
+              "-id": "SAINTE-ROSE",
+              "-temperature_mini": "23",
+              "-temperature_maxi": "29",
+              "-temps": "12",
+              "-vent_direction": "SSE",
+              "-vent_force": "27",
+              "-humidite": "77"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
