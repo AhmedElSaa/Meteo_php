@@ -1,0 +1,102 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: "Montserrat", system-ui, Roboto;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.map-left {
+    flex: 2;
+    height: 100%;
+}
+
+.panel-right {
+    flex: 1;
+    min-height: 300px;
+    overflow: auto;
+    padding: 8px 16px;
+    background: #2A77B9;
+    background: linear-gradient(50deg, rgba(42, 119, 185, 1) 0%, rgba(15, 62, 130, 1) 63%);
+    color: #fff;
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+}
+
+#panel {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+p {
+    margin: 0;
+}
+
+.subcategorie {
+    display: flex; 
+    align-items: center;
+    gap: 8px;
+}
+
+.vent {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.prevision {
+    padding: 8px;
+    margin-top: 12px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+    min-width: 220px;
+    max-width: 280px;
+}
+
+.gm-style-iw-d {
+    margin-top: -30px;
+}
+
+.infobulle {
+    min-width:260px;
+    max-width:320px;
+}
+
+.infobulle-txt {
+    font-weight:600;
+    font-size: 14px;
+    margin:0 0 6px;
+}
+
+.infobulle-desc {
+    display:flex;
+    gap:8px;
+    align-items: center;
+    margin:4px 0
+}
+
+@media (max-width: 1200px) {
+    .map-left{
+        flex: 1;
+    }
+}

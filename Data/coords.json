@@ -1,0 +1,17 @@
+{
+  "CILAOS": { "lat": -21.120, "lng": 55.471 },
+  "LA PLAINE DES CAFRES": { "lat": -21.220, "lng": 55.558 },
+  "LA PLAINE DES PALMISTES": { "lat": -21.120, "lng": 55.638 },
+  "LE PORT": { "lat": -20.927, "lng": 55.291 },
+  "LE TAMPON": { "lat": -21.270, "lng": 55.518 },
+  "SAINT-ANDRE": { "lat": -20.950, "lng": 55.665 },
+  "SAINT-BENOIT": { "lat": -21.030, "lng": 55.715 },
+  "SAINT-DENIS": { "lat": -20.875, "lng": 55.448 },
+  "SAINT-LEU": { "lat": -21.155, "lng": 55.293 },
+  "SAINT-LOUIS": { "lat": -21.280, "lng": 55.411 },
+  "SAINT-PAUL": { "lat": -21.000, "lng": 55.280 },
+  "SAINT-PHILIPPE": { "lat": -21.348, "lng": 55.767 },
+  "SAINT-PIERRE": { "lat": -21.329, "lng": 55.478 },
+  "SAINTE-MARIE": { "lat": -20.899, "lng": 55.549 },
+  "SAINTE-ROSE": { "lat": -21.125, "lng": 55.790 }
+}

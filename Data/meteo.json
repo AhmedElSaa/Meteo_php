@@ -64,8 +64,8 @@
         },
         {
           "-id": "SAINT-ANDRE",
-          "-temperature_mini": "24",
-          "-temperature_maxi": "23",
+          "-temperature_mini": "23",
+          "-temperature_maxi": "24",
           "-temps": "03",
           "-vent_direction": "ESE",
           "-vent_force": "23",
@@ -114,8 +114,8 @@
         },
         {
           "-id": "SAINT-PAUL",
-          "-temperature_mini": "24",
-          "-temperature_maxi": "19",
+          "-temperature_mini": "19",
+          "-temperature_maxi": "24",
           "-temps": "03",
           "-vent_direction": "ESE",
           "-vent_force": "11",
