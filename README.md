@@ -2,7 +2,7 @@
 
 ## Architecture
  
-Pour ce projet j'ai utiliser l'architecture MVC, le Model lit les fichiers JSON et structure les données, le Controller reçoit la requête et manipule les données et la View présente les données à l'utilisateur.
+Pour ce projet j'ai utiliser l'architecture MVC, le Model lit les fichiers JSON et structure les données, le Controller reçoit la requête et manipule les données et la View présente les données à l'utilisateur. J'ai utilisé WAMP Sever comme serveur web.
 
 ## Carte Google Maps et Coords.json
 
