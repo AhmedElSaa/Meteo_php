@@ -1,10 +1,10 @@
 <?php require "view_begin.php"; ?>
 
 <div class="container">
-    <div class="map-left">
+    <div class="map-top">
         <div id="map"></div>
     </div>
-    <div class="panel-right">
+    <div class="panel-bot">
         <h1>Météo — <span id="panel-city" class="muted">Aucune ville sélectionnée</span></h1>
         <div id="panel">
             <p class="muted">Cliquer un marqueur sur la carte pour afficher la météo du jour et les prévisions ici.</p>

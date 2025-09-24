@@ -11,12 +11,12 @@ body {
     flex-direction: column;
 }
 
-.map-left {
+.map-top {
     flex: 2;
     height: 100%;
 }
 
-.panel-right {
+.panel-bot {
     flex: 1;
     min-height: 300px;
     overflow: auto;
@@ -96,7 +96,7 @@ p {
 }
 
 @media (max-width: 1200px) {
-    .map-left{
+    .map-top{
         flex: 1;
     }
 }

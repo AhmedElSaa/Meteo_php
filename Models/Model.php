@@ -9,7 +9,7 @@ class Model
     /**
      * Lit et décode Data/meteo.json
      */
-    private function chargeMeteo()
+    private function loadMeteo()
     {
         $str = file_get_contents("Data/meteo.json");
         $json = json_decode($str, true);
@@ -19,7 +19,7 @@ class Model
     /**
      * Lit et décode Data/coords.json
      */
-    private function chargeCoords()
+    private function loadCoords()
     {
         $str = file_get_contents("Data/coords.json");
         $json = json_decode($str, true);
@@ -31,16 +31,16 @@ class Model
      */
     public function getCoords()
     {
-        $this->chargeCoords();
+        $this->loadCoords();
         return $this->coords;
     }
 
     /**
      * Retourne une liste des villes avec toutes ses données et des noms simplifiés.
      */
-    public function listeVilles()
+    public function listCities()
     {
-        $this->chargeMeteo();
+        $this->loadMeteo();
         $villes = $this->meteo['bulletin']['ville'];
 
         return array_map(function ($v) {
@@ -60,10 +60,10 @@ class Model
     /**
      * Récupere le nom de la ville er retourne les infos du jour cette ville.
      */
-    public function meteoDuJourParVille(string $villeId)
+    public function todayWeatherByCity(string $villeId)
     {
-        $this->chargeCoords();
-        foreach ($this->listeVilles() as $v) {
+        $this->loadCoords();
+        foreach ($this->listCities() as $v) {
             if ($v['id'] === $villeId) {
                 $v['coord'] = $this->coords[$villeId] ?? null;
                 return $v;
@@ -75,9 +75,9 @@ class Model
     /**
      * Récupere le nom de la ville et retourne les prévisions de cette ville.
      */
-    public function previsionsParVille(string $villeId)
+    public function forecastsByCity(string $villeId)
     {
-        $this->chargeMeteo();
+        $this->loadMeteo();
         $jours = $this->meteo['previsions']['prevision'];
         $res = [];
 

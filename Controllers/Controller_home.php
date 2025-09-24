@@ -50,14 +50,14 @@ class Controller_home extends Controller
                 echo json_encode(['error' => 'Paramètre "name" manquant'], JSON_UNESCAPED_UNICODE);
                 return;
             }
-            $today = $this->model->meteoDuJourParVille($name);
+            $today = $this->model->todayWeatherByCity($name);
             if (!$today) {
                 echo json_encode(['error' => 'Ville introuvable dans le bulletin'], JSON_UNESCAPED_UNICODE);
                 return;
             }
             echo json_encode([
                 'today'      => $today,
-                'previsions' => $this->model->previsionsParVille($name),
+                'previsions' => $this->model->forecastsByCity($name),
             ], JSON_UNESCAPED_UNICODE);
             die();
         } catch (Exception  $e) {

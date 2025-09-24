@@ -1,4 +1,3 @@
-// --- Icônes par code météo (mets tes PNG/SVG dans /Image) --------------------
 const ICONS = {
   "02": "Image/nuage.png",
   "03": "Image/soleil.png",
@@ -10,7 +9,7 @@ const ICONS = {
   "default": "Image/nuage.png"
 };
 function iconForCode(code) {
-  const c = String(code || "");
+  const c = String(code);
   return ICONS[c] || ICONS.default;
 }
 
@@ -29,24 +28,30 @@ function initMap() {
   });
 
   infoWindow = new google.maps.InfoWindow();
-  chargerCoordsEtPlacerMarkers();
+  loadCoordsAndMarkers();
 }
 
 /**
- * Va chercher toutes les positions dans coords.json et les places.
- */
-function chargerCoordsEtPlacerMarkers() {
-  fetch("index.php?controller=home&action=coords")
-    .then((r) => r.json())
-    .then((data) => {
-      if (!data || !data.coords) throw new Error("Réponse coords invalide.");
-      Object.entries(data.coords).forEach(([ville, coord]) => {
-        creerMarker(ville, coord);
-      });
+* Crée un google.maps.Marker, puis récupère le temps du jour pour définir l’icône.
+*/
+function createMarker(ville, coord) {
+  const marker = new google.maps.Marker({
+    position: coord,
+    map: map,
+    title: ville,
+    icon: { url: ICONS.default, scaledSize: new google.maps.Size(34, 34), anchor: new google.maps.Point(17, 17) }
+  });
+
+  prefetchCity(ville)
+    .then(data => {
+      const url = iconForCode(data?.today?.temps_code);
+      marker.setIcon({ url, scaledSize: new google.maps.Size(24, 24), anchor: new google.maps.Point(17, 17) });
     })
-    .catch((err) => {
-      console.error(err);
-    });
+    .catch(console.error);
+
+  marker.addListener("click", () => {
+    dataCity(ville, marker);
+  });
 }
 
 /** 
@@ -66,32 +71,26 @@ function prefetchCity(ville) {
 }
 
 /**
-* Crée un google.maps.Marker, puis récupère le temps du jour pour définir l’icône.
-*/
-function creerMarker(ville, coord) {
-  const marker = new google.maps.Marker({
-    position: coord,
-    map: map,
-    title: ville,
-    icon: { url: ICONS.default, scaledSize: new google.maps.Size(34, 34), anchor: new google.maps.Point(17, 17) }
-  });
-
-  prefetchCity(ville)
-    .then(data => {
-      const url = iconForCode(data?.today?.temps_code);
-      marker.setIcon({ url, scaledSize: new google.maps.Size(24, 24), anchor: new google.maps.Point(17, 17) });
+ * Va chercher toutes les positions dans coords.json et les places.
+ */
+function loadCoordsAndMarkers() {
+  fetch("index.php?controller=home&action=coords")
+    .then((r) => r.json())
+    .then((data) => {
+      if (!data || !data.coords) throw new Error("Réponse coords invalide.");
+      Object.entries(data.coords).forEach(([ville, coord]) => {
+        createMarker(ville, coord);
+      });
     })
-    .catch(console.error);
-
-  marker.addListener("click", () => {
-    chargerDataVille(ville, marker);
-  });
+    .catch((err) => {
+      console.error(err);
+    });
 }
 
 /**
 * Charge les données de la ville et les affiches.
 */
-function chargerDataVille(ville, marker) {
+function dataCity(ville, marker) {
   const title = document.getElementById("panel-city");
   const panel = document.getElementById("panel");
   if (title) title.textContent = ville;
@@ -120,17 +119,14 @@ function infoWindowContent(ville, today) {
   return `
     <div class="infobulle">
       <div class="infobulle-txt">${ville}</div>
-
       <div class="infobulle-desc">
         <img src="Image/thermometre_black.png" width="20" height="20" alt="">
         <div>↑ ${today.temp_max}°C<br>↓ ${today.temp_min}°C</div>
       </div>
-
       <div class="infobulle-desc">
         <img src="Image/humidite_black.png" width="20" height="20" alt="">
         <div>${today.humidite}%</div>
       </div>
-
       <div class="infobulle-desc">
         <img src="Image/vent_black.png" width="20" height="20" alt="">
         <div>${today.vent_force} km/h${today.rafales ? `<br>(Rafales : ${today.rafales} km/h)` : ""}</div>
@@ -144,8 +140,6 @@ function infoWindowContent(ville, today) {
 */
 function renderForecastPanel(forecasts) {
   const panel = document.getElementById("panel");
-  if (!panel) return;
-
   const list = (forecasts).map(f => `
     <div class="prevision">
       <div class="date"><strong>${formatDateFR(f.date)}</strong></div>
@@ -167,7 +161,6 @@ function renderForecastPanel(forecasts) {
       </div>
     </div>
   `).join("");
-
   panel.innerHTML = list;
 }
 
@@ -175,7 +168,7 @@ function renderForecastPanel(forecasts) {
 * Convertit "-temps" en libellé.
 */
 function labelTemps(code) {
-  switch (String(code || "")) {
+  switch (String(code)) {
     case "02": return "Dégagé";
     case "03": return "Ensoleillé";
     case "12": return "Nuageux";
