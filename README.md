@@ -1,4 +1,5 @@
-# Météo - La Reunion
+📌 **Veuillez lire ce qui suit !**
+# Météo - La Reunion 
 
 ## Architecture
  
@@ -21,7 +22,8 @@ Lorsque je cliquais sur une ville, les données prenaient un peu de temps à s�
 Google Maps : https://www.youtube.com/watch?v=CdDXbvBFXLY<br>
 Google Maps : https://www.codementor.io/project-solutions/bffpqhwsho<br>
 JSON PHP : https://stackoverflow.com/questions/19758954/get-data-from-json-file-with-php<br>
-JSON PHP : https://stackoverflow.com/questions/4064444/returning-json-from-a-php-script
+JSON PHP : https://stackoverflow.com/questions/4064444/returning-json-from-a-php-script<br>
+Format date JS : https://www.commentcoder.com/formater-date-javascript/
 
 ## Objet de l'exercice : Réaliser une carte météo
 
