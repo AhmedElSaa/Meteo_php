@@ -17,10 +17,12 @@ class Controller_home extends Controller
      * Rend la vue principale
      */
     public function action_home()
-    {
-        $data = [];
-        $this->render('home', $data);
-    }
+{
+    $data = [
+        'bulletin' => $this->model->getBulletin(),
+    ];
+    $this->render('home', $data);
+}
 
     /**
      * Encode JSON pour récupérer toutes les coordonnées des villes.

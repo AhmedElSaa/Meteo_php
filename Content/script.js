@@ -189,3 +189,12 @@ function formatDateFR(input) {
     day: '2-digit', month: '2-digit', year: 'numeric'
   });
 }
+
+/** 
+* Fermeture des infos.
+*/
+const btn = document.querySelector('.close-btn');
+const closable = document.querySelector('.closable');
+btn.addEventListener('click', () => {
+  closable.style.display = 'none';
+});

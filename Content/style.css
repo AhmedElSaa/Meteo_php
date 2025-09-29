@@ -11,14 +11,57 @@ body {
     flex-direction: column;
 }
 
+.bulletin {
+    background: #fff;
+    border: 1px solid #e5e7eb;
+    padding: 16px;
+    font-size: 12px;
+    flex: 1;
+}
+
+.bulletin-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bulletin-top-left {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 12px;
+}
+
+.bulletin h2 {
+    margin: 0 0 6px;
+    font-size: 18px;
+}
+
+.bulletin-date {
+    margin: 0 0 10px;
+    color: #64748b;
+    font-size: 14px;
+}
+
+.bulletin-previsions p {
+    margin: 6px 0;
+}
+
+.closable { position: relative; }
+.close-btn{
+  position: absolute; top: 8px; right: 8px;
+  width: 28px; height: 28px; border: 0; border-radius: 50%;
+  background: rgba(0,0,0,.06); color: #111; cursor: pointer;
+}
+
 .map-top {
-    flex: 2;
+    flex: 3;
     height: 100%;
 }
 
 .panel-bot {
     flex: 1;
-    min-height: 300px;
+    min-height: 220px;
     overflow: auto;
     padding: 8px 16px;
     background: #2A77B9;
@@ -95,8 +138,8 @@ p {
     margin:4px 0
 }
 
-@media (max-width: 1200px) {
+/* @media (max-width: 1200px) {
     .map-top{
         flex: 1;
     }
-}
+} */

@@ -35,6 +35,20 @@ class Model
         return $this->coords;
     }
 
+    public function getBulletin(): array
+    {
+        $this->loadMeteo();
+
+        return [
+            'sujet'         => $this->meteo['bulletin']['sujet'],
+            'date'          => $this->meteo['bulletin']['date'],
+            'introduction'  => $this->meteo['bulletin']['introduction'],
+            'situation'     => $this->meteo['bulletin']['situation'],
+            'previsions_html' => $this->meteo['bulletin']['previsions'],
+        ];
+    }
+
+
     /**
      * Retourne une liste des villes avec toutes ses données et des noms simplifiés.
      */
