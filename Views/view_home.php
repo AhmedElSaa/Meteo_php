@@ -11,20 +11,11 @@
         </div>
         <button class="close-btn" aria-label="Fermer">✕</button>
     </div>
-    
-    <?php if (!empty($bulletin['introduction'])): ?>
-        <p><?= htmlspecialchars($bulletin['introduction']) ?></p>
-    <?php endif; ?>
-
-    <?php if (!empty($bulletin['situation'])): ?>
-        <p><strong>Situation :</strong> <?= htmlspecialchars($bulletin['situation']) ?></p>
-    <?php endif; ?>
-
-    <?php if (!empty($bulletin['previsions_html'])): ?>
-        <div class="bulletin-previsions">
+    <p><?= htmlspecialchars($bulletin['introduction']) ?></p>
+    <p><strong>Situation :</strong> <?= htmlspecialchars($bulletin['situation']) ?></p>
+    <div class="bulletin-previsions">
         <?= $bulletin['previsions_html'] ?>
-        </div>
-    <?php endif; ?>
+    </div>
     </section>
     <div class="map-top">
         <div id="map"></div>
